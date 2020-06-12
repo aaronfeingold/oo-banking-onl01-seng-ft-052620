@@ -3,8 +3,8 @@ class BankAccount
   
   @@all = [] 
   
-  def initialize(money)
-    @money = money 
+  def initialize(name)
+    @name = name  
     @@all << self 
   end 
   
