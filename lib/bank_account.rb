@@ -1,5 +1,5 @@
 class BankAccount
-  attr_accessor :money 
+  attr_accessor :name  
   
   @@all = [] 
   
